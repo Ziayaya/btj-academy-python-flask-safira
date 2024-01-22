@@ -30,7 +30,6 @@ class Notes(Base):
     )
     deleted_at: Mapped[datetime.datetime] = mapped_column(
         "deleted_at",
-        default=datetime.datetime.utcnow(),
         nullable=True,
     )
     created_by: Mapped[int] = mapped_column(

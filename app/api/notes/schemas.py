@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field, EmailStr
+from pydantic import BaseModel, Field
 from api.base.base_schemas import BaseResponse, PaginationParams
 from models.notes import NotesSchema
 
